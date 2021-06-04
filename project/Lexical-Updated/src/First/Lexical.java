@@ -13,12 +13,7 @@ import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-/**
- *
- * @author Shafqat Dogar
- * BCS02123339
- * Sec-(A)
- */
+
 
 public class Lexical{
 
