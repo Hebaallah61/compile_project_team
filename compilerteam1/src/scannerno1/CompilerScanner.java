@@ -72,7 +72,7 @@ public class CompilerScanner {
                     
             ///////////////////////////////////////////////////////////////////////////////////
             default:
-                if ( index > word.length() && line.charAt(index - word.length()) == '$') {
+                if ( true) {
                     return Tokens.IDENTIFIER;
                 } else {
                     ////////////////////////////////////////////////////

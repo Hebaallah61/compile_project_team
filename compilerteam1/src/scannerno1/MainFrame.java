@@ -105,7 +105,7 @@ public class MainFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
     // Browse Button 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        JFileChooser fileChooser = new JFileChooser();
+        JFileChooser fileChooser = new JFileChooser("text.text");
         
         int response = fileChooser.showOpenDialog(null);
         if(response == JFileChooser.APPROVE_OPTION){
